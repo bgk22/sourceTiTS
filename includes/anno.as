@@ -1114,7 +1114,7 @@ function faceFuckAnno():void
 
 	var x:int = pc.biggestCockIndex();
 	output("You ");
-	if(pc.isNude()) output("start pulling yourself out of your [pc.gear] and ");
+	if(!pc.isNude()) output("start pulling yourself out of your [pc.gear] and ");
 	output("grab your [pc.cock " + x + "], the rapidly hardening length mere inches from Anno's bliss-etched face. She doesn't react at all as your possessions clatter to the ground behind you; the only sign she gives that she's even aware of you anymore is the slight raise of her tail, the tell-tale gesture of an ausar ready to play. You let your dong drop onto her cheek, " + num2Text(Math.round(pc.cocks[x].cLength())) + " inches of hard, hot meat suddenly caressing her cheek is enough to break Anno from her reverie, her big, blue eyes fluttering open, wandering over your naked form.");
 
 	//if first time having sex:
@@ -1435,7 +1435,7 @@ function cumWithAnnoOnTop():void
 	output("\n\nYou urge Anno faster, using your free hand to help lift her hind-end at the bottom of every bounce. Together, you're making a chorus of sexy goans and low, sensual moans, rising toward the inevitable crescendo as your orgasms both approach inexorably, rushing forward to the point of no return. With a final cry of pleasure, Anno slams herself down on your rod, taking you to the hilt and wrist at once, and that's all she wrote: you cum the moment you feel her cheeks press into your [pc.crotch], blasting her bowels with a double load of held-back cum; her muscles go wild when her climaxes moments later, milking your cock for every last drop as her pussy tries to swallow your fist, trapping you in her spasming channel as she unleashes a torrent of fem-cum that leaves a puddle spreading between your [pc.legs].");
 
 	output("\n\nBreathing a sigh of relief, Anno collapses back into your arms, finally releasing your hand from the vice-like grip of her pussy. You wrap your arms around her, holding the ");
-	if(chars["ANNO"].analVirgin) output("analy-deflowered ");
+	if(chars["ANNO"].analVirgin) output("anally-deflowered ");
 	output("ausar tight as she recovers from her ordeal. She leans back and plants a little kiss on your cheek, even as she reaches down and gives your wilting [pc.cock " + x + "] a tug, just enough to pull you out of her abused anus... and let a trickle of spunk drool back out of her gaping ring, splattering onto the floor.");
 
 	output("\n\n<i>\"That wasn't so bad after all...\"</i> Anno murmurs, snuggling back against you. <i>\"Good thing I don't have to sit down to do my job.\"</i>");
@@ -1751,6 +1751,7 @@ function joinCrewPlanetCrackerVersionSheWantsIt():void
 		//{PC is put back in hall outside Steele Tech. Can no longer access shop.}
 		clearMenu();
 		flags["ANNOS_SHOP_CLOSED"] = 1;
+		flags["ANNO_CREWMEMBER"] = 1;
 		addButton(0, "Next", move, "212");
 	}
 }
