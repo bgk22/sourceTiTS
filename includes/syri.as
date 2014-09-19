@@ -126,8 +126,8 @@ function betYourselfAgainstSyri():void {
 
 		output("\n\n<i>“I've got a little something extra, stranger. And if you lose, I'm going to bend you over this here table and fuck your ass with a big knotty prick until I've got you nice and tied and screaming like a bitch in heat. Of course, if you somehow manage to win, you can ride my cock");
 		//if PC has a dick:
-		if(pc.hasCock()) output(" or pound my little pucker all you want, whichever suits your fancy. I don't judge.");
-		output(" So what'll it be, [pc.name]? Ready to put your ass on the line for a chance at mine?”</i>");
+		if(pc.hasCock()) output(" or pound my little pucker all you want, whichever suits your fancy. I don't judge");
+		output(". So what'll it be, [pc.name]? Ready to put your ass on the line for a chance at mine?”</i>");
 		//[Sure {Go to Bet X text}] [Not today]
 		clearMenu();
 		addButton(0,"Sure",syriGameRouting);
