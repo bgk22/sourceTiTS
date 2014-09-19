@@ -160,7 +160,7 @@ public function kirosShipWails(doOutput:Boolean = true):void
 	{
 		if (flags["RESCUE KIRO TECHSPEC MACHINE FIX"] == undefined)
 		{
-			addButton(3, "Fix Machine", kirosShipfixDaMachine, undefined, "Fix the Machine", "Bring your considerable technical knowhow to bare on the troubled machine.")
+			addButton(3, "Fix Machine", kirosShipfixDaMachine, undefined, "Fix the Machine", "Bring your considerable technical knowhow to bear on the troubled machine.")
 		}
 		else
 		{
@@ -169,7 +169,7 @@ public function kirosShipWails(doOutput:Boolean = true):void
 	}
 	else
 	{
-		addDisabledButton(3, "Fix Machine", "An individual with substantial engineering know-how might be in a possition to attempt fixing the machine for the beached Kui-Tan.")
+		addDisabledButton(3, "Fix Machine", "An individual with substantial engineering know-how might be in a position to attempt fixing the machine for the beached Kui-Tan.")
 	}
 }
 
