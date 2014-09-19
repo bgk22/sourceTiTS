@@ -62,7 +62,7 @@ public function boardKirosShipRescue(destination:String):void
 {
 	clearOutput();
 
-	output("The ship proves remarkable easy to dock with. In fact, as soon as your navigational computer begins to plot a course, it automatically extends a docking umbilical in your direction. You guide your craft through the necessary navigational hoops in order to properly connect with it and grab your gear. This could be dangerous.");
+	output("The ship proves remarkably easy to dock with. In fact, as soon as your navigational computer begins to plot a course, it automatically extends a docking umbilical in your direction. You guide your craft through the necessary navigational hoops in order to properly connect with it and grab your gear. This could be dangerous.");
 
 	// [Normal ship menu with exit ship as if had landed at a planet]
 	shipLocation = "KIROS SHIP AIRLOCK";
@@ -125,7 +125,7 @@ public function kirosShipWails(doOutput:Boolean = true):void
 
 		output("\n\nThe room looks to have once been a rec room in its early days, but the pool tables, holoprojectors and couches have all been shoved up into the corners in a pile. A massive mechanical device dominates the emptied space, hanging from the ceiling. Dozens of cables and pipes shroud its central workings from view. Perched atop it, a vidscreen and a pair of holoprojectors flicker on and off, sometimes displaying little more than fuzzes of static. Other times they display intensely erotic ultraporn, the kind of stuff you need sixteen licenses to produce. The bottom portions of the device are obscured by something else entirely, the real thing that made you gasp: giant, furry balls.");
 
-		output("\n\nPerched atop them is a naked feminine form, legs splayed so that they're sunk partway into the surprisingly squishy sack. Her whole body is stacked on top of her tremendous nuts, and she's gasping and thrashing and crying all at once. It's no wonder she put out a distress call; she's completely immobilized by those massive cum-tanks, weighing her down like an old-time anchor. You can actually hear the stuff slosh around inside them whenever her struggles become particularly violent. Her immense, fluffy, racoon-like tail is bouncing up and down behind her as she struggles. Two-tone brown fur sheaths her entire body from head to toe, and a darker, rich-chocolate mass of hair tangles around her sweating brow and neck. She's clearly some kind of racoon- or tanuki-girl.");
+		output("\n\nPerched atop them is a naked feminine form, legs splayed so that they're sunk partway into the surprisingly squishy sack. Her whole body is stacked on top of her tremendous nuts, and she's gasping and thrashing and crying all at once. It's no wonder she put out a distress call; she's completely immobilized by those massive cum-tanks, weighing her down like an old-time anchor. You can actually hear the stuff slosh around inside them whenever her struggles become particularly violent. Her immense, fluffy, raccoon-like tail is bouncing up and down behind her as she struggles. Two-tone brown fur sheaths her entire body from head to toe, and a darker, rich-chocolate mass of hair tangles around her sweating brow and neck. She's clearly some kind of raccoon- or tanuki-girl.");
 
 		output("\n\nThe gasp you made upon entry was enough to draw the animal-girl's attention, and she twists to look at you, desperation in her eyes. Her breasts jiggle in her new pose, naked to your roving eyes and capped with nipples a chocolate so dark that they're almost black. Voice breaking, she begs, \"<i>Help me cum, please! My milker's broken and I'm so pent up! I can't cum without it or a nice, tight cunt! Ohgod, please, I need a cunt!</i>\" Her wails become almost feverish, and she thrashes, enabling you to see something massively swollen between her legs slipping partway out of the defunct machine. It's the color of dark-cherry and covered in angry veins with a positively equine sheath at its base. This tanuki is packing some serious horse-meat!");
 
@@ -138,8 +138,8 @@ public function kirosShipWails(doOutput:Boolean = true):void
 	clearMenu();
 	if (pc.hasCock())
 	{
-		addButton(0, "Anal", kirosShipChubnookiUpDaButt, undefined, "Anally", "Fuck the beached Tankuis ass.");
-		addButton(1, "Vaginal", kirosShipChubnookiUpDaCooter, undefined, "Vaginally", "Fuck the beached Tankuis cunt.");
+		addButton(0, "Anal", kirosShipChubnookiUpDaButt, undefined, "Anally", "Fuck the beached Tanuki's ass.");
+		addButton(1, "Vaginal", kirosShipChubnookiUpDaCooter, undefined, "Vaginally", "Fuck the beached Tanuki's cunt.");
 	}
 	else
 	{
@@ -149,22 +149,22 @@ public function kirosShipWails(doOutput:Boolean = true):void
 	
 	if (pc.hasVagina())
 	{
-		addButton(2, "Get Filled", kirosShipChubnookiFucksYouGud, undefined, "Get Filled", "Ride the Tanukis monster cock.");
+		addButton(2, "Get Filled", kirosShipChubnookiFucksYouGud, undefined, "Get Filled", "Ride the Tanuki's monster cock.");
 	}
 	else
 	{
-		addDisabledButton(2, "Get Filled", "Get Filled", "If you had a cunt, you could ride the Tankuis monster cock.");
+		addDisabledButton(2, "Get Filled", "Get Filled", "If you had a cunt, you could ride the Tanuki's monster cock.");
 	}
 
 	if (pc.characterClass == GLOBAL.CLASS_ENGINEER)
 	{
 		if (flags["RESCUE KIRO TECHSPEC MACHINE FIX"] == undefined)
 		{
-			addButton(3, "Fix Machine", kirosShipfixDaMachine, undefined, "Fix the Machine", "Bring your considerable technical knowhow to bear on the troubled machine.")
+			addButton(3, "Fix Machine", kirosShipfixDaMachine, undefined, "Fix the Machine", "Bring your considerable technical know-how to bear on the troubled machine.")
 		}
 		else
 		{
-			addDisabledButton(3, "Fix Machine", "Fix the Machine", "You've already tried - and failed - to successfully fix the troubled machine that would grant the Kui-tan the relief she so desperately needs.")
+			addDisabledButton(3, "Fix Machine", "Fix the Machine", "You've already tried - and failed - to successfully fix the troubled machine that would grant the Kui-Tan the relief she so desperately needs.")
 		}
 	}
 	else
@@ -224,7 +224,7 @@ public function kirosShipChubnookiUpDaButt():void
 	// "dwarfing her own" == > 21" x 3.5"
 	else
 	{
-		output("\n\n\"<i>O-oh god...</i>\" she whimpers, visibly shaking as you bring your huge cock to bare, easily dwarfing her own gut-wrenching member. Suddenly, just as you're lining up for the final push, you feel a cool wetness around your prick. Looking up, you see a big yellow bottle of Peggy's industrial lube in her hand, pouring it liberally back around her ass, giving her fur a nice sheen as she coats your cock. Muuuuch better. You rub it in, slathering your [pc.cock " + selCock +"] with all the lubrication it needs. You give her ass a slap for good measure before bearing down on her. She cries and shrieks as you push in, her legs flailing around your waist as you grunt and push, forcing the first inch into her now-gaping ass as she struggles to take your massive girth. ");
+		output("\n\n\"<i>O-oh god...</i>\" she whimpers, visibly shaking as you bring your huge cock to bear, easily dwarfing her own gut-wrenching member. Suddenly, just as you're lining up for the final push, you feel a cool wetness around your prick. Looking up, you see a big yellow bottle of Peggy's industrial lube in her hand, pouring it liberally back around her ass, giving her fur a nice sheen as she coats your cock. Muuuuch better. You rub it in, slathering your [pc.cock " + selCock +"] with all the lubrication it needs. You give her ass a slap for good measure before bearing down on her. She cries and shrieks as you push in, her legs flailing around your waist as you grunt and push, forcing the first inch into her now-gaping ass as she struggles to take your massive girth. ");
 		pc.cockChange(false, true);
 		kiro.buttChange(pc.cockVolume(selCock), false, false, false);
 		output("\n\n");
